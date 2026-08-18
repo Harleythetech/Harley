@@ -149,7 +149,7 @@ export default function Contact() {
                                 text-[10px]
                                 uppercase
                                 tracking-[0.3em]
-                                text-[#EEFF6B]/60
+                                text-[#EEFF6B]/70
                             "
                         >
                             03 / Contact
@@ -260,7 +260,7 @@ export default function Contact() {
                                         text-[10px]
                                         uppercase
                                         tracking-[0.25em]
-                                        text-[#EEFF6B]/50
+                                        text-[#EEFF6B]/65
                                     "
                                 >
                                     Get in touch
@@ -344,7 +344,7 @@ export default function Contact() {
                                             text-[10px]
                                             uppercase
                                             tracking-[0.25em]
-                                            text-[#EEFF6B]/50
+                                            text-[#EEFF6B]/65
                                         "
                                     >
                                         Curriculum Vitae
@@ -439,7 +439,7 @@ export default function Contact() {
                                     text-[10px]
                                     uppercase
                                     tracking-[0.25em]
-                                    text-[#EEFF6B]/50
+                                    text-[#EEFF6B]/65
                                 "
                             >
                                 Find me elsewhere
@@ -562,7 +562,7 @@ export default function Contact() {
                                         text-[10px]
                                         uppercase
                                         tracking-[0.25em]
-                                        text-[#EEFF6B]/50
+                                        text-[#EEFF6B]/65
                                     "
                                 >
                                     Send a message

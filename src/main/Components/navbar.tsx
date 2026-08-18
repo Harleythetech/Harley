@@ -148,7 +148,7 @@ export default function Navbar() {
                                     key={link.href}
                                     href={link.href}
                                     onClick={(e) => scrollTo(e, link.href)}
-                                    className="desktop-nav-link text-white text-base font-medium hover:text-gray-300 transition-colors"
+                                    className="desktop-nav-link text-white text-base font-medium hover:text-white/55 transition-colors"
                                     style={{ opacity: 0 }}
                                 >
                                     {link.label}

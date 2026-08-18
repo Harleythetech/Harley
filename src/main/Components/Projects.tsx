@@ -170,7 +170,7 @@ export default function Projects() {
                   font-medium
                   uppercase
                   tracking-[0.3em]
-                  text-[#EEFF6B]/60
+                  text-[#EEFF6B]/70
                 "
               >
                 02 / Projects
@@ -203,7 +203,7 @@ export default function Projects() {
               max-w-sm
               text-sm
               leading-7
-              text-white/50
+              text-white/55
 
               sm:text-[15px]
               sm:leading-7

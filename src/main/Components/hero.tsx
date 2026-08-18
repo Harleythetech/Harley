@@ -226,7 +226,7 @@ export default function Hero() {
                                     hero-content-item
                                     text-xs
                                     tracking-wide
-                                    text-gray-400
+                                    text-white/55
                                     lg:text-sm
                                 "
                                 style={{ opacity: 0 }}
@@ -282,7 +282,7 @@ export default function Hero() {
                                     font-mono
                                     text-xs
                                     leading-relaxed
-                                    text-gray-400
+                                    text-white/55
                                     sm:text-sm
                                     lg:text-justify
                                     lg:text-[clamp(0.7rem,0.8vw,0.9rem)]
@@ -353,7 +353,7 @@ export default function Hero() {
                                 flex-1
                                 text-[clamp(0.6rem,0.65vw,0.8rem)]
                                 leading-relaxed
-                                text-gray-500
+                                text-white/45
                             "
                             style={{ opacity: 0 }}
                         >
@@ -382,7 +382,7 @@ export default function Hero() {
                                 flex-1
                                 text-[clamp(0.6rem,0.65vw,0.8rem)]
                                 leading-relaxed
-                                text-gray-500
+                                text-white/45
                             "
                             style={{ opacity: 0 }}
                         >
@@ -418,7 +418,7 @@ export default function Hero() {
                                             pr-12
                                             font-mono
                                             text-xs
-                                            text-gray-500
+                                            text-white/45
                                         "
                                     >
                                         {item}

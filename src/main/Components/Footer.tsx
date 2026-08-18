@@ -66,7 +66,7 @@ export default function Footer() {
     };
 
     return (
-        <footer className="relative text-neutral-300 border-t border-neutral-800/80 antialiased selection:bg-neutral-800 selection:text-white">
+        <footer className="relative text-white/55 border-t border-white/8 antialiased selection:bg-white/10 selection:text-white">
             <div className="px-12 md:px-8 lg:px-16 pt-16 pb-12">
                 
                 {/* ── Top Grid: Lead CTA & Navigation Matrix ── */}
@@ -80,7 +80,7 @@ export default function Footer() {
                                 alt="Harley Jovellano"
                                 className="h-9 w-auto object-contain object-left mb-6 brightness-95 hover:brightness-100 transition-all"
                             />
-                            <p className="text-xl sm:text-2xl font-normal tracking-tight text-neutral-200 max-w-lg leading-snug">
+                            <p className="text-xl sm:text-2xl font-normal tracking-tight text-white max-w-lg leading-snug">
                                 I build & design things for the web.
                             </p>
                         </div>
@@ -89,7 +89,7 @@ export default function Footer() {
                         <div className="flex flex-wrap items-center gap-3 pt-2">
                             <a
                                 href={`mailto:${email}`}
-                                className="inline-flex items-center justify-center px-4 py-2.5 rounded-lg text-sm font-medium text-neutral-950 bg-neutral-100 hover:bg-white active:scale-[0.99] transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-400"
+                                className="inline-flex items-center justify-center px-4 py-2.5 rounded-lg text-sm font-medium text-white bg-white/10 hover:bg-white/15 active:scale-[0.99] transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/40"
                             >
                                 Get in touch
                             </a>
@@ -97,10 +97,10 @@ export default function Footer() {
                                 type="button"
                                 onClick={handleCopyEmail}
                                 aria-label="Copy email address to clipboard"
-                                className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-lg text-sm font-mono text-neutral-400 bg-neutral-900/90 border border-neutral-800 hover:border-neutral-700 hover:text-neutral-200 active:scale-[0.99] transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-400"
+                                className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-lg text-sm font-mono text-white/45 bg-white/2.5 border border-white/8 hover:border-white/15 hover:text-white/70 active:scale-[0.99] transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/40"
                             >
                                 <span>{email}</span>
-                                <span className="text-xs text-neutral-500 font-sans">
+                                <span className="text-xs text-white/40 font-sans">
                                     {copied ? "Copied" : "Copy"}
                                 </span>
                             </button>
@@ -112,7 +112,7 @@ export default function Footer() {
                         
                         {/* Sitemap Navigation */}
                         <div>
-                            <span className="block text-xs font-semibold uppercase tracking-wider text-neutral-400 mb-4">
+                            <span className="block text-xs font-semibold uppercase tracking-wider text-white/40 mb-4">
                                 Navigation
                             </span>
                             <ul className="space-y-3">
@@ -121,7 +121,7 @@ export default function Footer() {
                                         <a
                                             href={link.href}
                                             onClick={(e) => scrollTo(e, link.href)}
-                                            className="text-sm text-neutral-400 hover:text-white transition-colors duration-150"
+                                            className="text-sm text-white/45 hover:text-white transition-colors duration-150"
                                         >
                                             {link.label}
                                         </a>
@@ -133,7 +133,7 @@ export default function Footer() {
                         {/* Social & Availability */}
                         <div className="space-y-6">
                             <div>
-                                <span className="block text-xs font-semibold uppercase tracking-wider text-neutral-400 mb-4">
+                                <span className="block text-xs font-semibold uppercase tracking-wider text-white/40 mb-4">
                                     Network
                                 </span>
                                 <div className="space-y-3">
@@ -143,7 +143,7 @@ export default function Footer() {
                                             href={social.href}
                                             target="_blank"
                                             rel="noreferrer"
-                                            className="flex items-center gap-2.5 text-sm text-neutral-400 hover:text-neutral-100 group transition-colors duration-150"
+                                            className="flex items-center gap-2.5 text-sm text-white/45 hover:text-white group transition-colors duration-150"
                                         >
                                             <img
                                                 src={social.icon}
@@ -152,7 +152,7 @@ export default function Footer() {
                                                 className="w-4 h-4 opacity-60 group-hover:opacity-100 transition-opacity"
                                             />
                                             <span>{social.name}</span>
-                                            <span className="text-neutral-600 group-hover:text-neutral-400 text-xs transition-colors">
+                                            <span className="text-white/25 group-hover:text-white/50 text-xs transition-colors">
                                                 ↗
                                             </span>
                                         </a>
@@ -167,16 +167,16 @@ export default function Footer() {
                 </div>
 
                 {/* ── Bottom Strip: Metadata & Colophon ── */}
-                <div className="pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-neutral-500 font-mono">
+                <div className="pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-white/40 font-mono">
                     <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
                         <span>© {year} Vincent Harley R. Jovellano</span>
                         <span>·</span>
                         <span>Philippines (UTC+8)</span>
                     </div>
 
-                    <div className="flex flex-wrap items-center gap-x-3 text-neutral-500">
+                    <div className="flex flex-wrap items-center gap-x-3 text-white/40">
                         <span>Crafted with</span>
-                        <span className="text-neutral-400">{TECH_STACK.join(" / ")}</span>
+                        <span className="text-white/55">{TECH_STACK.join(" / ")}</span>
                     </div>
                 </div>
 
